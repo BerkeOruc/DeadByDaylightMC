@@ -1,0 +1,15 @@
+execute as @e[tag=Generator,distance=..1.5] at @s run function dbd:game/game/generators/add
+title @s times 0t 1s 10t
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator_Done matches 0 run title @s title [{"text":"Jeneratör Durumu: 0/5","color":"green","bold":true}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator_Done matches 1 run title @s title [{"text":"Jeneratör Durumu: 1/5","color":"green","bold":true}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator_Done matches 2 run title @s title [{"text":"Jeneratör Durumu: 2/5","color":"green","bold":true}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator_Done matches 3 run title @s title [{"text":"Jeneratör Durumu: 3/5","color":"green","bold":true}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator_Done matches 4 run title @s title [{"text":"Jeneratör Durumu: 4/5","color":"green","bold":true}]
+
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 0..100 run title @s subtitle [{"text":"Tamir İlerlemesi: ","color":"green"},{"text":"[","color":"dark_green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"]","color":"dark_green"}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 101..200 run title @s subtitle [{"text":"Tamir İlerlemesi: ","color":"green"},{"text":"[","color":"dark_green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"]","color":"dark_green"}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 201..300 run title @s subtitle [{"text":"Tamir İlerlemesi: ","color":"green"},{"text":"[","color":"dark_green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"red"},{"text":"⬛","color":"red"},{"text":"]","color":"dark_green"}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 301..400 run title @s subtitle [{"text":"Tamir İlerlemesi: ","color":"green"},{"text":"[","color":"dark_green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"red"},{"text":"]","color":"dark_green"}]
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 401..600 run title @s subtitle [{"text":"Tamir İlerlemesi: ","color":"green"},{"text":"[","color":"dark_green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"⬛","color":"green"},{"text":"]","color":"dark_green"}]
+
+execute if score @e[tag=Generator,distance=..1.5,limit=1] Game_Generator matches 402.. as @e[tag=Generator,distance=..1.5,limit=1] at @s run function dbd:game/game/generators/stady_done

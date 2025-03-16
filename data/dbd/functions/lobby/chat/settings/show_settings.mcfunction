@@ -1,0 +1,15 @@
+tellraw @s {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+tellraw @s {"text":"Oyun Ayarları","color":"gold","bold":true}
+
+tellraw @s {"text":"\nJeneratör Ayarları:","color":"yellow","bold":true}
+tellraw @s [{"text":"Jeneratör Tamir Süresi: ","color":"white"},{"score":{"name":"*Generator_Time","objective":"Settings"},"color":"green"},{"text":" saniye "},{"text":"[-]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/generator_time_minus"}},{"text":" [+]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/generator_time_plus"}}]
+tellraw @s [{"text":"Gerekli Jeneratör Sayısı: ","color":"white"},{"score":{"name":"*Required_Generators","objective":"Settings"},"color":"green"},{"text":" adet "},{"text":"[-]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/required_generators_minus"}},{"text":" [+]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/required_generators_plus"}}]
+
+tellraw @s {"text":"\nOyun Süresi:","color":"yellow","bold":true}
+tellraw @s [{"text":"Başlangıç Süresi: ","color":"white"},{"score":{"name":"*Start_Time","objective":"Settings"},"color":"green"},{"text":" dakika "},{"text":"[-]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/start_time_minus"}},{"text":" [+]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/start_time_plus"}}]
+tellraw @s [{"text":"Kaçış Süresi: ","color":"white"},{"score":{"name":"*Escape_Time","objective":"Settings"},"color":"green"},{"text":" dakika "},{"text":"[-]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/escape_time_minus"}},{"text":" [+]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/settings/escape_time_plus"}}]
+
+tellraw @s {"text":"\nKatil Ayarları:","color":"yellow","bold":true}
+tellraw @s [{"text":"Katil Hızı: ","color":"white"},{"text":"[","color":"gray"},{"text":"Yavaş","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players set *Murderer_Speed Settings 1"}},{"text":" | ","color":"gray"},{"text":"Normal","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players set *Murderer_Speed Settings 2"}},{"text":" | ","color":"gray"},{"text":"Hızlı","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/scoreboard players set *Murderer_Speed Settings 3"}},{"text":"]","color":"gray"}]
+
+tellraw @s [{"text":"\n<-- Geri","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function dbd:lobby/chat/main"}}]

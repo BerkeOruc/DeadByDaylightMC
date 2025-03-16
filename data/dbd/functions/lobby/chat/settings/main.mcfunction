@@ -1,0 +1,2 @@
+execute if entity @s[tag=moderator] run function dbd:lobby/chat/settings/show_settings
+execute unless entity @s[tag=moderator] run tellraw @s {"text":"Bu menüye erişmek için moderatör yetkisine sahip olmanız gerekiyor!","color":"red"}
