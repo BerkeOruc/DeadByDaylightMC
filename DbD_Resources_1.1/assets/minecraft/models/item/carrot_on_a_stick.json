@@ -1,0 +1,15 @@
+{
+	"parent": "minecraft:item/handheld_rod",
+	"textures": {
+		"layer0": "minecraft:item/carrot_on_a_stick"
+	},
+  
+	"overrides": [
+		{"predicate": {"custom_model_data":0}, "model": "minecraft:item/ability"},
+		{"predicate": {"custom_model_data":1}, "model": "minecraft:item/knife"},
+		{"predicate": {"custom_model_data":11}, "model": "minecraft:item/axe"},
+		{"predicate": {"custom_model_data":2}, "model": "minecraft:item/mine"},
+		{"predicate": {"custom_model_data":3}, "model": "minecraft:item/trap_with_a_loop"},
+		{"predicate": {"custom_model_data":4}, "model": "minecraft:item/trap"}
+  ]
+}

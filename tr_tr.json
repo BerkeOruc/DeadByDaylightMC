@@ -1,0 +1,105 @@
+{
+    "dbd.hi":"Merhaba!",
+    "dbd.lobby.chat.dbd_info":"Orijinal Dead by Daylight oyunundan esinlenilmiştir",
+
+    "dbd.lobby.chat.music":"Müzik: ",
+        "dbd.lobby.chat.music_on":"AÇIK",
+        "dbd.lobby.chat.music_off":"KAPALI",
+
+    "dbd.lobby.title.not_ready":"Hazır değilsin!",
+    "dbd.lobby.title.ready":"Hazırsın!",
+    "dbd.lobby.title.readies":"Hazır: ",
+    
+    "dbd.lobby.chat.ready":"HAZIR",
+    "dbd.lobby.chat.cancel_ready":"Hazırlığı iptal et",
+    "dbd.lobby.chat.ready_hint":"Oyun tüm oyuncular hazır olduğunda başlar. \nHerkes hazır olduğunda oyun hemen başlayacak!",
+    
+    "dbd.lobby.chat.information":"BİLGİ",
+
+    "dbd.lobby.chat.creators":"Yapımcılar",
+        "dbd.lobby.chat.creators.builders":"Yapımcı: ",
+        "dbd.lobby.chat.creators.builders_nicks":"Berke Oruç",
+        "dbd.lobby.chat.creators.music":"Müzik: ",
+        "dbd.lobby.chat.creators.music_nicks":"Berke Oruç",
+        "dbd.lobby.chat.creators.code":"Kodlama: ",
+        "dbd.lobby.chat.creators.code_nicks":"Berke Oruç",
+        "dbd.lobby.chat.creators.this_lang":"Bu dildeki çeviri: ",
+        "dbd.lobby.chat.creators.this_lang_nicks":"Berke Oruç",
+
+    "dbd.lobby.chat.hwo_to_play":"Nasıl Oynanır?",
+            "dbd.lobby.chat.htp.main_info":"Temel Bilgiler",
+                    "dbd.lobby.chat.htp.main_info_text":"Bu oyunda sadece 2 rol vardır. Masumların amacı haritaya dağılmış 12 jeneratörden 5'ini çalıştırmaktır. Bundan sonra Kaçış aşaması başlar ve Masumların ana kapıyı açıp kaçması gerekir. \nKatilin amacı herkesi öldürmektir.",
+            "dbd.lobby.chat.htp.mechanics":"Mekanikler",
+                    "dbd.lobby.chat.htp.mechanics_text":"Masumlara zarar vermek için Sağ Tıklayın.\nJeneratörler yeşil parçacıklardır. Jeneratörü çalıştırmak için yanında eğilmeniz gerekir.",
+
+            "dbd.lobby.chat.htp.about_roles":"Roller:",
+            "dbd.lobby.chat.htp.ar.innocent":"Masum",
+                    "dbd.lobby.chat.htp.ar.innocent_text":"Masumların amacı 5 jeneratörü çalıştırarak (jeneratörün yanında eğilerek) kapıyı açmak ve kaçmaktır. Masumların Katilden kaçmalarına yardımcı olacak farklı sınıfları vardır.",
+
+            "dbd.lobby.chat.htp.ar.murderer":"Katil",
+                    "dbd.lobby.chat.htp.ar.murderer_text":"Katilin amacı kimsenin kaçamaması için herkesi öldürmektir (Masumlara yakınken Sağ Tık). Masumları yakalamak için kullanabileceği tuzakları vardır. Katil ayrıca benzersiz bıçaklardan birini seçebilir.",
+
+    "dbd.game.pre_start.u_murderer":"SEN: KATİLSİN",
+    "dbd.game.pre_start.u_murderer_info":"Tüm Masumları yakala.",
+    "dbd.game.pre_start.u_innocent":"SEN: MASUMSUN",
+    "dbd.game.pre_start.u_innocent_info":"Katilin evinden kaç.",
+    
+    "dbd.game.choose.innocent_hint":"Karakter seç:",
+    "dbd.game.choose.innocent_1":"Hayatta Kalan",
+        "dbd.game.choose.innocent_1_hint":"Hayatta Kalan yuvarlanabilir (5sn).",
+    "dbd.game.choose.innocent_2":"Doktor",
+        "dbd.game.choose.innocent_2_hint":"Doktor kendini ve 3 blok yakınındaki masumları iyileştirebilir (15sn).",
+    "dbd.game.choose.innocent_3":"Mühendis",
+        "dbd.game.choose.innocent_3_hint":"Mühendis tüm Katil tuzaklarını görebilir ve 20 saniyede bir etkisiz hale getirebilir.",
+        
+    "dbd.game.choose.murderer_hint":"Silah seçimi.",
+        "dbd.game.choose.murderer_1":"Bıçak",
+        "dbd.game.choose.murderer_2":"Balta",
+
+    "dbd.game.murderer.knife":"Bıçak",
+    "dbd.game.murderer.axe":"Balta",
+
+    "dbd.game.murderer.mine":"Mayın",
+    "dbd.game.murderer.trap_with_a_loop":"İlmekli Tuzak",
+    "dbd.game.murderer.trap":"Tuzak",
+    "dbd.game.murderer.controller":"Gergi",
+    "dbd.game.murderer.trapped":"Birisi tuzağına yakalandı.",
+
+    "dbd.game.innocent.ability":"Yetenek",
+
+    "dbd.game.player_1":"Oyuncu 1",
+    "dbd.game.player_2":"Oyuncu 2",
+    "dbd.game.player_3":"Oyuncu 3",
+    "dbd.game.player_4":"Oyuncu 4",
+    "dbd.game.player_5":"Oyuncu 5",
+
+    "dbd.game.player.killed":"ÖLDÜN!",
+    "dbd.game.player.killed_hint":"Katil seni öldürdü!",
+
+    "dbd.game.gen.recharged":"Çalıştırıldı",
+    "dbd.game.gen.alr_done":"Jeneratör zaten çalışıyor!",
+    "dbd.game.gen.was_done":"Jeneratörlerden biri çalıştırıldı!",
+    "dbd.game.generators":"Jeneratörler",
+
+    "dbd.game.can_use":"Kullanılabilir",
+    "dbd.game.recharge":"Yenileniyor",
+    "dbd.game.escape":"Kaç.",
+    
+    "dbd.game.door.opening":"Açılıyor...",
+    "dbd.game.door.wait":"Kapı açılıyor. Bekle...",
+
+    "dbd.game.escape.smb_escaped":" kaçtı!",
+    "dbd.game.escape.you_escaped":"Kurtuldun!",
+
+    "dbd.game.trap.trapped":"TUZAK",
+    "dbd.game.trap.trapped.mine_info":"Mayına yakalandın.",
+    "dbd.game.trap.trapped.trap_info":"Tuzağa yakalandın.",
+    "dbd.game.trap.trapped.trap_with_a_loop_info":"İlmekli tuzağa yakalandın.",
+    "dbd.game.trap.trapped.controller_info":"Gergiye yakalandın.",
+    
+    "dbd.game.end.innocents_won":"MASUMLAR KAZANDI!",
+    "dbd.game.end.innocents_won_hint":"Kaçmayı başaran Masumlar var.",
+    "dbd.game.end.murderer_won":"KATİL KAZANDI!",
+    "dbd.game.end.murderer_won_hint":"Kimse kaçamadı.",
+    "dbd.game.end.game_over":"Oyun bitti!"
+}

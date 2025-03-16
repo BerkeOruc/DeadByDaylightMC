@@ -1,0 +1,58 @@
+{
+    "music_game_1": {
+         "sounds":[
+             {
+                 "name": "music_game_1",
+                 "weight": 1
+             } 
+         ]
+    },
+    "music_game_2": {
+        "sounds":[
+            {
+                "name": "music_game_2",
+                "weight": 1
+            } 
+        ]
+   },
+   "music_overtime": {
+    "sounds":[
+        {
+            "name": "music_overtime",
+            "weight": 1
+        } 
+    ]
+    },
+    "escape": {
+        "sounds":[
+            {
+                "name": "music/escape",
+                "weight": 1
+            } 
+        ]
+    },
+    "murderer_chase_run": {
+        "sounds":[
+            {
+                "name": "music/murderer_chase_run",
+                "weight": 1
+            } 
+        ]
+    },
+    "murderer_chase_warning": {
+    "sounds":[
+        {
+            "name": "music/murderer_chase_warning",
+            "weight": 1
+        } 
+    ]
+},
+"murderer_choose_cd": {
+    "sounds":[
+        {
+            "name": "music/murderer_choose_cd",
+            "weight": 1
+        } 
+    ]
+}
+}

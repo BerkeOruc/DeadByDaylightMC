@@ -1,0 +1,114 @@
+{
+    "dbd.hi":"Hi!",
+		"dbd.lobby.chat.dbd_info":"Based on the original game Dead by Daylight",
+	
+	"dbd.lobby.chat.music":"Music: ",
+		"dbd.lobby.chat.music_on":"ON",
+		"dbd.lobby.chat.music_off":"OFF",
+
+    "dbd.lobby.title.not_ready":"You are not ready!",
+    "dbd.lobby.title.ready":"You are ready!",
+    "dbd.lobby.title.readies":"Ready: ",
+	
+    "dbd.lobby.chat.ready":"READY",
+    "dbd.lobby.chat.cancel_ready":"Cancel readiness",
+    "dbd.lobby.chat.ready_hint":"The game starts when all the apples are ready. \nWhen everyone is ready, the game will start immediately!",
+    
+	"dbd.lobby.chat.information":"INFORMATION",
+
+    "dbd.lobby.chat.creators":"Creators",
+	    "dbd.lobby.chat.creators.builders":"Builders: ",
+	    "dbd.lobby.chat.creators.builders_nicks":"Crepo777, ORMAKS, Penda, Slime47",
+	    "dbd.lobby.chat.creators.music":"Music: ",
+	    "dbd.lobby.chat.creators.music_nicks":"Taken from Project Playtime (could be Copyright!)",
+	    "dbd.lobby.chat.creators.code":"Code: ",
+	    "dbd.lobby.chat.creators.code_nicks":"Crepo777",
+	    "dbd.lobby.chat.creators.this_lang":"Translation into this language (original): ",
+	    "dbd.lobby.chat.creators.this_lang_nicks":"Crepo777",
+
+    "dbd.lobby.chat.hwo_to_play":"How to play?",
+		    "dbd.lobby.chat.htp.main_info":"Basic information",
+					    "dbd.lobby.chat.htp.main_info_text":"There are only 2 roles in this game. The goal of the Innocent is to start 5 of the 12 generators scattered throughout the map. After that, the Escape stage will begin, where the Innocent need to open the main door and escape. \nThe goal of the Murderer is to kill everyone.",
+		    "dbd.lobby.chat.htp.mechanics":"Mechanics",
+					    "dbd.lobby.chat.htp.mechanics_text":"To inflict damage on the Innocent, you need to click the Right Mouse Button.\nThe generators are green particles. To start the generator, you need to sit down near to it.",						
+
+		    "dbd.lobby.chat.htp.about_roles":"Roles:",
+		    "dbd.lobby.chat.htp.ar.innocent":"Innocent",
+					    "dbd.lobby.chat.htp.ar.innocent_text":"The goal of the Innocent is to open the door by starting 5 generators(sit down near to the generator) and escape. The innocent have different classes that will help them escape from the Murderer.",
+
+		    "dbd.lobby.chat.htp.ar.murderer":"Murderer",
+					    "dbd.lobby.chat.htp.ar.murderer_text":"The Murderer's goal is to kill everyone(The right Mouse Button near to the Innocent) so that no one escapes. He has traps that will help him catch the Innocent. A Murderer can also choose one of the unique knives.",
+
+
+
+
+
+
+
+	"dbd.game.pre_start.u_murderer":"YOU ARE: A MURDERER",
+	"dbd.game.pre_start.u_murderer_info":"Catch all the Survivors.",
+	"dbd.game.pre_start.u_innocent":"YOU ARE: A INNOCENT",
+	"dbd.game.pre_start.u_innocent_info":"Escape from the Murderer's house.",
+	
+	"dbd.game.choose.innocent_hint":"Choose a character:",
+	"dbd.game.choose.innocent_1":"Survivor",
+		"dbd.game.choose.innocent_1_hint":"The Survivor has the ability to roll (5s).",
+	"dbd.game.choose.innocent_2":"Doctor",
+		"dbd.game.choose.innocent_2_hint":"The Doctor can heal himself and the nearest survivors within a radius of 3 blocks (15c).",
+	"dbd.game.choose.innocent_3":"Engineer",
+		"dbd.game.choose.innocent_3_hint":"The Engineer sees all the Murderer's traps and can defuse them 1 time in 20 seconds.",
+		
+	"dbd.game.choose.murderer_hint":"The choice of weapons.",
+		"dbd.game.choose.murderer_1":"Knife",
+		"dbd.game.choose.murderer_2":"Axe",
+
+	"dbd.game.murderer.knife":"Knife",
+	"dbd.game.murderer.axe":"Axe",
+
+	"dbd.game.murderer.mine":"Mine",
+	"dbd.game.murderer.trap_with_a_loop":"A trap with a loop",
+	"dbd.game.murderer.trap":"Trap",
+	"dbd.game.murderer.controller":"Stretching",
+	"dbd.game.murderer.trapped":"Someone has fallen into your trap.",
+
+	"dbd.game.innocent.ability":"Ability",
+
+	"dbd.game.player_1":"Player 1",
+	"dbd.game.player_2":"Player 2",
+	"dbd.game.player_3":"Player 3",
+	"dbd.game.player_4":"Player 4",
+	"dbd.game.player_5":"Player 5",
+
+	"dbd.game.player.killed":"YOU'RE DEAD!",
+	"dbd.game.player.killed_hint":"A Murderer stabbed you!",
+
+	"dbd.game.gen.recharged":"Recharged",
+	"dbd.game.gen.alr_done":"The generator is already running!",
+	"dbd.game.gen.was_done":"One of the generators was turned on!",
+	"dbd.game.generators":"Generators",
+
+
+	"dbd.game.can_use":"Can be used",
+	"dbd.game.recharge":"Recharge",
+	"dbd.game.escape":"Escape.",
+	
+	"dbd.game.door.opening":"Opening...",
+	"dbd.game.door.wait":"The door opens. Wait...",
+
+	"dbd.game.escape.smb_escaped":" escapes!",
+	"dbd.game.escape.you_escaped":"You were saved!",
+
+
+	"dbd.game.trap.trapped":"THE TRAP",
+	"dbd.game.trap.trapped.mine_info":"You've been hit by a Mine.",
+	"dbd.game.trap.trapped.trap_info":"You've fallen into a Trap.",
+	"dbd.game.trap.trapped.trap_with_a_loop_info":"You are trapped with a loop.",
+	"dbd.game.trap.trapped.controller_info":"You've been caught in a Stretch.",
+	
+	"dbd.game.end.innocents_won":"THE INNOCENT HAS WON!",
+	"dbd.game.end.innocents_won_hint":"There are Innocents who were able to escape.",
+	"dbd.game.end.murderer_won":"THE MURDERER HAS WON!",
+	"dbd.game.end.murderer_won_hint":"No one was able to escape.",
+	"dbd.game.end.game_over":"Game over!"
+
+}

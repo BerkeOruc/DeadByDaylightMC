@@ -1,0 +1,114 @@
+{
+    "dbd.hi":"Привет!",
+		"dbd.lobby.chat.dbd_info":"На основе оригинальной игры Dead by Daylight",
+
+	"dbd.lobby.chat.music":"Музыка: ",
+		"dbd.lobby.chat.music_on":"ВКЛ",
+		"dbd.lobby.chat.music_off":"ВЫКЛ",
+
+    "dbd.lobby.title.not_ready":"Вы не готовы!",
+    "dbd.lobby.title.ready":"Вы готовы!",
+    "dbd.lobby.title.readies":"Готовы: ",
+	
+    "dbd.lobby.chat.ready":"ГОТОВО",
+    "dbd.lobby.chat.cancel_ready":"Отменить готовность",
+    "dbd.lobby.chat.ready_hint":"Игра начинается, когда все игроки будут готовы. \nКогда все будут готовы игра начнётся сразу же!",
+    
+	"dbd.lobby.chat.information":"ИНФОРМАЦИЯ",
+
+    "dbd.lobby.chat.creators":"Создатели",
+	    "dbd.lobby.chat.creators.builders":"Строители: ",
+	    "dbd.lobby.chat.creators.builders_nicks":"Crepo777, ORMAKS, Penda, Slime47",
+	    "dbd.lobby.chat.creators.music":"Музыка: ",
+	    "dbd.lobby.chat.creators.music_nicks":"Взята из Project Playtime (могут быть АП!)",
+	    "dbd.lobby.chat.creators.code":"Код: ",
+	    "dbd.lobby.chat.creators.code_nicks":"Crepo777",
+	    "dbd.lobby.chat.creators.this_lang":"Перевод на этот язык (оригинал): ",
+	    "dbd.lobby.chat.creators.this_lang_nicks":"Crepo777",
+
+    "dbd.lobby.chat.hwo_to_play":"Как играть?",
+		    "dbd.lobby.chat.htp.main_info":"Основная информация",
+					    "dbd.lobby.chat.htp.main_info_text":"В этой игре есть всего 2 роли. Цель Невиновных завести 5 из 12 генераторов, разбросанных по всей карте. После этого начнётся стадия Спасения, где Невиновным нужно открыть главную дверь и сбежать.\nЦель Маньяка убить всех.",
+		    "dbd.lobby.chat.htp.mechanics":"Механики",
+					    "dbd.lobby.chat.htp.mechanics_text":"Чтобы наносить урон Невиновным нужно нажать Правую Кнопку Мыши.\nГенераторы - зелёные частицы. Чтобы заводить генератор, нужно присесть рядом с ним.",
+
+		    "dbd.lobby.chat.htp.about_roles":"Роли:",
+		    "dbd.lobby.chat.htp.ar.innocent":"Невиновный",
+					    "dbd.lobby.chat.htp.ar.innocent_text":"Цель Невиновных открыть дверь, заведя 5 генераторов(присядьте рядом с генератором), и сбежать. Невиновные имеют различные классы, которые помогут им сбежать от Маньяка.",
+
+		    "dbd.lobby.chat.htp.ar.murderer":"Маньяк",
+					    "dbd.lobby.chat.htp.ar.murderer_text":"Цель Маньяка убить всех(ПКМ рядом с Невиновным), чтобы никто не сбежал. У него есть ловушки, которые помогут ему в поимке Невиновных. Так же Маньяк может выбрать себе один из уникальных ножей.",
+
+
+
+
+
+
+
+	"dbd.game.pre_start.u_murderer":"ВЫ: МАНЬЯК",
+	"dbd.game.pre_start.u_murderer_info":"Поймайте всех Выживших.",
+	"dbd.game.pre_start.u_innocent":"ВЫ: ВЫЖИВШИЙ",
+	"dbd.game.pre_start.u_innocent_info":"Сбегите из дома Маньяка.",
+	
+	"dbd.game.choose.innocent_hint":"Выберите персонажа:",
+	"dbd.game.choose.innocent_1":"Выживший",
+		"dbd.game.choose.innocent_1_hint":"Выживший имеет способность перекатываться (5с).",
+	"dbd.game.choose.innocent_2":"Врач",
+		"dbd.game.choose.innocent_2_hint":"Врач может исцелить себя и ближайших выживших в радиусе 3х блоков (15с).",
+	"dbd.game.choose.innocent_3":"Инженер",
+		"dbd.game.choose.innocent_3_hint":"Инженер видит все ловушки Маньяка и может обезвредить 1 раз в 20 секунд.",
+		
+	"dbd.game.choose.murderer_hint":"Выбор оружия.",
+		"dbd.game.choose.murderer_1":"Нож",
+		"dbd.game.choose.murderer_2":"Топор",
+
+	"dbd.game.murderer.knife":"Нож",
+	"dbd.game.murderer.axe":"Топор",
+
+	"dbd.game.murderer.mine":"Мина",
+	"dbd.game.murderer.trap_with_a_loop":"Ловушка с петлёй",
+	"dbd.game.murderer.trap":"Капкан",
+	"dbd.game.murderer.controller":"Растяжка",
+	"dbd.game.murderer.trapped":"В Вашу ловушку кто-то попался.",
+
+	"dbd.game.innocent.ability":"Способность",
+
+	"dbd.game.player_1":"Игрок 1",
+	"dbd.game.player_2":"Игрок 2",
+	"dbd.game.player_3":"Игрок 3",
+	"dbd.game.player_4":"Игрок 4",
+	"dbd.game.player_5":"Игрок 5",
+
+	"dbd.game.player.killed":"ВЫ ПОГИБЛИ!",
+	"dbd.game.player.killed_hint":"Маньяк зарезал Вас!",
+
+	"dbd.game.gen.recharged":"Заведено",
+	"dbd.game.gen.alr_done":"Генератор уже заведён!",
+	"dbd.game.gen.was_done":"Один из генераторов был заведён!",
+	"dbd.game.generators":"Генераторы",
+
+
+	"dbd.game.can_use":"Можно использовать",
+	"dbd.game.recharge":"Перезарядка",
+	"dbd.game.escape":"Спасайтесь.",
+	
+	"dbd.game.door.opening":"Открытие...",
+	"dbd.game.door.wait":"Дверь открывается. Подождите...",
+
+	"dbd.game.escape.smb_escaped":" спасается!",
+	"dbd.game.escape.you_escaped":"Вы спаслись!",
+
+
+	"dbd.game.trap.trapped":"ЛОВУШКА",
+	"dbd.game.trap.trapped.mine_info":"Вы попались на Мину.",
+	"dbd.game.trap.trapped.trap_info":"Вы попались в Капкан.",
+	"dbd.game.trap.trapped.trap_with_a_loop_info":"Вы попались в Ловушку с петлёй.",
+	"dbd.game.trap.trapped.controller_info":"Вы попались на Растяжку.",
+	
+	"dbd.game.end.innocents_won":"НЕВИНОВНЫЕ ВЫГРАЛИ!",
+	"dbd.game.end.innocents_won_hint":"Есть Невиновные, которые смогли сбежать.",
+	"dbd.game.end.murderer_won":"МАНЬЯК ВЫИГРАЛ!",
+	"dbd.game.end.murderer_won_hint":"Никто не смог спастись.",
+	"dbd.game.end.game_over":"Игра завершена!"
+
+}
